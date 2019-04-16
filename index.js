@@ -30,3 +30,8 @@ function makeInt(n) {
   var mynum = (parseInt(n, 10))
   return mynum
 }
+
+function preserveDecimal(n) {
+  var mynum = (parseFloat(n))
+  return mynum
+}
